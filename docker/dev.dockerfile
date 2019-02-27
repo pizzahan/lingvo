@@ -86,6 +86,7 @@ RUN mkdir /bazel && \
     cd / && \
     rm -f /bazel/bazel-$BAZEL_VERSION-installer-linux-x86_64.sh
 
+RUN mkdir /data
 
 # TensorBoard
 EXPOSE 6006
